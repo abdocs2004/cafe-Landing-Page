@@ -124,7 +124,7 @@ export function CarouselPrevious({
   return (
     <button
       type="button"
-      className={`absolute z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--brand-deep)] ${
+      className={`absolute z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--border) bg-(--surface) text-(--brand-deep) ${
         orientation === "horizontal"
           ? "-left-3 top-1/2 -translate-y-1/2"
           : "-top-3 left-1/2 -translate-x-1/2 rotate-90"
@@ -147,7 +147,7 @@ export function CarouselNext({
   return (
     <button
       type="button"
-      className={`absolute z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--brand-deep)] ${
+      className={`absolute z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--border) bg-(--surface) text-(--brand-deep) ${
         orientation === "horizontal"
           ? "-right-3 top-1/2 -translate-y-1/2"
           : "-bottom-3 left-1/2 -translate-x-1/2 rotate-90"
